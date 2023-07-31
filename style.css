@@ -1,0 +1,118 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(180deg, rgba(277, 255, 248, 0) 70%, rgba(54, 181, 149, 0.38) 100%);
+
+  min-height: 100vh;
+}
+
+.page {
+  width: 1000px;
+  margin: auto;
+  padding-top: 65px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 55px;
+}
+
+
+ul{
+  list-style: none;
+  display: flex;
+  gap: 3rem;
+  margin: 0;
+  padding: 0;
+}
+
+a{
+  text-decoration: none;
+  font-family: 'Mulish', sans-serif;
+  color: #1f1534;
+}
+
+
+
+h1 span{
+  color: #89c5cc;
+  font-weight: bold;
+}
+
+
+ul li a:hover{
+  color: #1f1534;
+  opacity: 0.5;;
+}
+
+main{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/*Estilização do titulo*/ 
+
+.titulo{
+  font-family: 'Mulish', sans-serif;
+  font-size: 3rem;
+  line-height: 3.5rem;
+  color: #1f1534;
+
+  font-weight: normal;
+}
+
+/*Estilização do texto do corpo do menu*/
+.texto-principal{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  line-height: 28px;
+  color: #7d7987;
+  margin: 40px 0;
+}
+  
+
+button{
+  /*Estilização do texto do botão*/
+  font-family: 'DM Sans', sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #fff;
+  gap: 10px;;
+
+  /*Estilização do alinhamento do botão*/
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  /*Estilização da forma do botão*/
+  border: none;
+  border-radius: 4px;
+  background: #69b990;
+  padding: 14px 32px 15px;
+  cursor: pointer;
+}
+
+button:hover{
+  background: #347755;
+}
+
+footer{
+  font-size: 14px;
+  line-height: 28px;
+  text-align: center;
+  margin-top: 83px;
+  
+}
+
+footer a{
+  font-weight:bolder;
+}
+
+#balls {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
